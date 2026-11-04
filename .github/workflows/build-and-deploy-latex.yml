@@ -25,6 +25,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v7
 
-      - uses: DanySK/compile-and-publish-all-latex@2.3.7
+      - uses: DanySK/compile-and-publish-all-latex@2.3.9
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
